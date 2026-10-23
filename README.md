@@ -1,9 +1,5 @@
 # User Behaviour Anomaly Detection Without AI
 
-<ins>To beat AI-powered invasion, you don't need AI.</ins>
-<br />
-<ins>Build your own User Behaviour Anomaly Detection.</ins>
-
 In today’s threat landscape, cyberattacks have accelerated dramatically in both speed and sophistication. Adversaries use AI-assisted offensive tools to rapidly identify attack surfaces, chain living-off-the-land techniques, and weaponize zero-day vulnerabilities at scale. When attacks can spread across enterprise networks within minutes, traditional signature-based detection and static indicators of compromise (IoCs) struggle to keep pace.
 
 ## Shift the Focus: Detect What Is Unusual (Uncover the “Unknown Unknowns”)

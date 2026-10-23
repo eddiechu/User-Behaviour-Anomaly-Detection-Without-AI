@@ -148,3 +148,7 @@ ruleset(name="remotelog") {
   $ActionFileDefaultTemplate RSYSLOG_TraditionalFileFormat
 }
 ```
+
+#CyberSecurity #InfoSec #AnomalyDetection #ThreatHunting #BlueTeam #UserBehaviorAnalytics #UEBA #CyberSecurity
+#Sysmon #WindowsSecurity #Syslog #FluentBit #Bash #Linux #Log #SIEM
+#NoAI #ZeroDay #OpenSourceSecurity #DFIR #IncidentResponse #DoItYourself

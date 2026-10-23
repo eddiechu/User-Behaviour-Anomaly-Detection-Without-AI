@@ -2,6 +2,8 @@
 
 In today’s threat landscape, cyberattacks have accelerated dramatically in both speed and sophistication. Adversaries use AI-assisted offensive tools to rapidly identify attack surfaces, chain living-off-the-land techniques, and weaponize zero-day vulnerabilities at scale. When attacks can spread across enterprise networks within minutes, traditional signature-based detection and static indicators of compromise (IoCs) struggle to keep pace.
 
+[![Watch the video](https://raw.githubusercontent.com/eddiechu/User-Behaviour-Anomaly-Detection-Without-AI/main/cover.jpg)]([https://youtu.be/CQIq8GDtDG0](https://www.youtube.com/shorts/1avCXJf_m1g))
+
 ## Shift the Focus: Detect What Is Unusual (Uncover the “Unknown Unknowns”)
 
 Rather than attempting to identify every new attack technique, organizations can focus on detecting deviations from normal user and system behaviour.

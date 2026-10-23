@@ -109,7 +109,7 @@ You can further develop the reporting mechanism, reduce noise, refine detection 
 
 As AI-powered attacks increase the speed and scale of cyber threats, organizations should not rely solely on traditional signature-based detection. A practical alternative is to build behavioural baselines from endpoint telemetry and identify deviations from established routines.
 
-By combining Sysmon, Windows Event Forwarding, syslog, and a simple historical comparison method, organizations can implement effective user behaviour anomaly detection without machine learning or AI. Sometimes, the most powerful detection strategy is simply knowing what “normal” looks like and immediately recognizing when something does not belong.
+By combining Sysmon, Group Policy, Windows Event Forwarding, syslog, and a simple historical comparison method, organizations can implement effective user behaviour anomaly detection without machine learning or AI. Sometimes, the most powerful detection strategy is simply knowing what “normal” looks like and immediately recognizing when something does not belong.
 
 ## Key Benefits
 

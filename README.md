@@ -55,7 +55,9 @@ Parse each syslog event into a simple `user:event` or `computer:``direction``:IP
 
 ```text
 event-20261020.dat
+<br />
 event-20261021.dat
+<br />
 event-20261022.dat
 elon:cmd.exe
 elon:dst:192.168.2.10
@@ -66,6 +68,7 @@ jensen:mstsc.exe
 jensen:net use
 svrcrm:dst:192.168.201.81
 svrcrm:src:192.168.201.81
+<br />
 event-20261023.dat
 elon:ping.exe
 jensen:dst:192.168.2.102
@@ -82,12 +85,15 @@ To calculate a simple rarity score, count the number of matching records within 
 
 ```text
 find event-*.dat -maxdepth 1 -mtime -35 | xargs -P 0 -n 1 grep -i -H "jensen" | grep -i "net group" | wc -l
+<br />
 find: searches for files.
 -maxdepth 1: does not search subdirectories.
 -mtime -35: selects files modified less than 35×24 hours ago.
+<br />
 xargs: runs grep against the filenames.
 -P 0: runs as many processes concurrently as possible.
 -n 1: passes one filename to each grep process.
+<br />
 grep -i: performs a case-insensitive search.
 -H: prints each matching filename.
 wc -l counts the matching lines.
@@ -148,7 +154,7 @@ ruleset(name="remotelog") {
   $ActionFileDefaultTemplate RSYSLOG_TraditionalFileFormat
 }
 ```
-
+<br /><br /><br /><br /><br /><br />
 #CyberSecurity #InfoSec #AnomalyDetection #ThreatHunting #BlueTeam #UserBehaviorAnalytics #UEBA #CyberSecurity
 #Sysmon #WindowsSecurity #Syslog #FluentBit #Bash #Linux #Log #SIEM
 #NoAI #ZeroDay #OpenSourceSecurity #DFIR #IncidentResponse #DoItYourself

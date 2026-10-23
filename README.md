@@ -84,7 +84,7 @@ For each new event, count how many of the previous N days contain the same behav
 To calculate a simple rarity score, count the number of matching records within the baseline window:
 
 ```text
-find event-*.dat -maxdepth 1 -mtime -35 | xargs -P 0 -n 1 grep -i -H "jensen" | grep -i "net group" | wc -l
+find event-*.dat -maxdepth 1 -mtime -35 | xargs -P 0 -n 1 grep -i -H "jensen:net group" | wc -l
 
 
 

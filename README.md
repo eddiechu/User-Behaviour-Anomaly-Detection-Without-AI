@@ -159,6 +159,6 @@ ruleset(name="remotelog") {
 }
 ```
 <br /><br /><br /><br /><br /><br />
-[![Alt Text](https://elasticpoint.net/image/logo.png)](https://elasticpoint.net)
+[![Alt Text](https://elasticpoint.net/image/logo_small.png)](https://elasticpoint.net)
 <br />
 #cybersecurity #infosec #anomalydetection #threathunting #blueteam #userbehavioranalytics #ueba #sysmon #windowssecurity #syslog #fluentbit #bash #linux #log #siem #noai #zeroday #opensourcesecurity #dfir #incidentresponse #doityourself #soc #ciso #cybersecurrity #malware #ai #attack #security #threat #cti #sigmarules #msp #analyst #splunk #qradar #elastic #wazuh #bigdata #sentinel #secops #userbehaviour
